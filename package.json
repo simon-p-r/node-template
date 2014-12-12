@@ -1,0 +1,21 @@
+{
+  "name": "template-node",
+  "version": "1.0.0",
+  "description": "node module template",
+  "dependencies": {},
+  "devDependencies": {
+    "code": "^1.2.1",
+    "hapi": "^8.0.0",
+    "lab": "^5.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simon-p-r/node-template.git"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
