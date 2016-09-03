@@ -1,21 +1,22 @@
 {
-  "name": "template-node",
+  "name": "@simon-p-r/node-template",
   "version": "1.0.0",
   "description": "node module template",
   "dependencies": {},
   "devDependencies": {
-    "code": "^1.2.1",
-    "hapi": "^8.0.0",
-    "lab": "^5.1.0"
+    "code": "^3.0.2",
+    "coveralls": "^2.11.12",
+    "lab": "^11.0.1"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "make test-cov"
+    "test": "lab -a code -v -t 100 -L",
+    "coveralls": "lab -r lcov | coveralls"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/simon-p-r/node-template.git"
   },
   "keywords": [],
-  "license": "MIT"
+  "license": "BSD-3-Clause"
 }

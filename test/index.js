@@ -1,17 +1,26 @@
 'use strict';
 
-var Code = require('code');
-var Hapi = require('hapi');
-var Lab = require('lab');
+const Code = require('code');
+const Hapi = require('hapi');
+const Lab = require('lab');
+const Lib = require('../lib');
 
-// Declare internals
-
-var internals = {};
+// Fixtures go here
 
 
 // Test shortcuts
 
-var lab = exports.lab = Lab.script();
-var expect = Code.expect;
-var describe = lab.describe;
-var it = lab.it;
+const lab = exports.lab = Lab.script();
+const expect = Code.expect;
+const describe = lab.describe;
+const it = lab.it;
+
+describe('module-test', () => {
+
+    it('should pass test', (done) => {
+
+        expect(true).to.be.true();
+
+    });
+
+});
