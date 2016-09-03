@@ -1,6 +1,6 @@
 {
   "name": "@simon-p-r/node-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node module template",
   "dependencies": {},
   "devDependencies": {
