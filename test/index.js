@@ -1,7 +1,6 @@
 'use strict';
 
 const Code = require('code');
-const Hapi = require('hapi');
 const Lab = require('lab');
 const Lib = require('../lib');
 
@@ -19,7 +18,8 @@ describe('module-test', () => {
 
     it('should pass test', (done) => {
 
-        expect(true).to.be.true();
+        expect(Lib()).to.be.true();
+        done();
 
     });
 
