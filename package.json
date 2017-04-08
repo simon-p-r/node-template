@@ -4,9 +4,9 @@
   "description": "node module template",
   "dependencies": {},
   "devDependencies": {
-    "code": "^3.0.2",
+    "code": "^4.0.0",
     "coveralls": "^2.11.12",
-    "lab": "^11.0.1"
+    "lab": "^13.0.1"
   },
   "main": "lib/index.js",
   "scripts": {
